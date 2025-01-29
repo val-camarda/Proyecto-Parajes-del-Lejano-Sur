@@ -135,7 +135,7 @@ article{
     padding: 25px;
 }
 
-#banner-index, #banner-servicios, #banner-cabanas, #banner-contacto, #banner-ubicacion{
+.banner{
     padding: 0 50px;
     height: 45vh;
     background-size: cover;
