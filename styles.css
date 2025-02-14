@@ -119,22 +119,6 @@ article{
     display: block;
 }
 
-.gridContainer{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: repeat(2, auto);
-    background-color: none;
-    text-align: left;
-    align-content: center;
-    align-items: center;
-    padding: 40px;
-    font-size: 20px;
-    font-weight: 400;
-}
-.gridItem{
-    padding: 25px;
-}
-
 .banner{
     padding: 0 50px;
     height: 45vh;
