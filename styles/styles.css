@@ -90,6 +90,16 @@ iframe{
     border-radius: 10px;
     text-align: center;
 }
+.servicios{
+    margin: 10px;
+    margin-top: 15px;
+    width: 350px;
+    height: auto;
+    padding: 30px 30px;
+    background-color: #3c4149;
+    border-radius: 50px;
+    text-align: center;
+}
 article{
     padding: 40px;
     text-align: center;
