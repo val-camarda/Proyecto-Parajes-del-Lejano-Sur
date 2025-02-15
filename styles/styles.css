@@ -93,10 +93,10 @@ iframe{
 .servicios{
     margin: 10px;
     margin-top: 15px;
-    width: 350px;
+    width: auto;
     height: auto;
     padding: 30px 30px;
-    background-color: #3c4149;
+    background-color: #256cdc;
     border-radius: 50px;
     text-align: center;
 }
