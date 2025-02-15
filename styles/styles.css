@@ -40,11 +40,11 @@ body{
     color: #24324a;
     width: 100vw;
 }   
-.nav-menu-link, .mostrar-menu, .esconder-menu{
+.nav-menu-link, .carta{
     text-decoration: none;
     color: whitesmoke;
 }
-.nav-menu-link:hover, .mostrar-menu:hover, .esconder-menu:hover{
+.nav-menu-link:hover, .carta:hover{
     color: rgb(233, 106, 15);
 }
 
@@ -96,12 +96,13 @@ iframe{
     width: auto;
     height: auto;
     padding: 30px 30px;
-    background-color: #256cdc;
-    color: aliceblue;
-    text-decoration: solid;
+    background-color: #4070bd;
+    color: whitesmoke;
+    text-decoration: none;
     border-radius: 50px;
     text-align: center;
 }
+
 article{
     padding: 40px;
     text-align: center;
