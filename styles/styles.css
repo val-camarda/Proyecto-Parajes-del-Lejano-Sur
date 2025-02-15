@@ -97,6 +97,8 @@ iframe{
     height: auto;
     padding: 30px 30px;
     background-color: #256cdc;
+    color: aliceblue;
+    text-decoration: solid;
     border-radius: 50px;
     text-align: center;
 }
