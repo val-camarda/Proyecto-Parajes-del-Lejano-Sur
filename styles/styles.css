@@ -1,0 +1,178 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+header, footer{
+    background-color: #344157;
+    font-weight: 500;
+    font-style: normal;
+    width: 100vw;
+}
+header{
+    height: max-content;
+    font-family: "Cinzel", serif;
+    top: 0;
+    left: 0;
+    color: whitesmoke;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    color: #161a22;
+    font-family: 'Lato', sans-serif;;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.logo{
+    padding: 0 40px;
+}
+
+body{
+    font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+    color: #24324a;
+    width: 100vw;
+}   
+.nav-menu-link, .carta{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.nav-menu-link:hover, .carta:hover{
+    color: rgb(233, 106, 15);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+}
+iframe{
+    width: 45vw;
+}
+.redes{
+    width: 20px;
+    height: 20px;
+}
+
+.cabanas{
+    padding-inline: 200px;
+    text-align: left;
+}
+
+.galeria{
+    width: 100%;
+}
+.cardcontainer{
+    background-color: transparent;
+    padding: 30px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 10px;
+    margin-top: 15px;
+    width: 350px;
+    height: auto;
+    padding: 30px 30px;
+    background-color: #bfc1c4;
+    border-radius: 10px;
+    text-align: center;
+}
+.servicios{
+    margin: 10px;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    padding: 30px 30px;
+    background-color: #4070bd;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 50px;
+    text-align: center;
+}
+
+article{
+    padding: 40px;
+    text-align: center;
+}
+.navbar{
+    margin: 0 auto;
+}
+
+.button{
+    border-radius: 10px;
+    background-color: #ddc00e;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar li{
+    margin: 0 15px;
+    display: flex;
+    width: max-content;
+}
+.navbar a{
+    padding: 15px 20px;
+    display: block;
+}
+
+.banner{
+    padding: 0 50px;
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+}
+#banner-index{
+    background-image: url(../assets/slide2.jpeg);
+}
+#banner-cabanas{
+    background-image: url(../assets/slide1.jpeg);
+}
+#banner-contacto{
+    background-image: url(../assets/slide3.jpeg);
+}
+#banner-ubicacion{
+    background-image: url(../assets/slide5.jpeg);
+}
+#banner-servicios{
+    background-image: url(../assets/slide4.jpeg);
+}
+
+
+/* RESPONSIVE */
+@media (max-width:1093px){
+    .header{
+        top: 0;
+    }
+
+    .navbar{
+        display: flex;
+        height: auto;
+        background-color: #344157;
+        text-align: center;
+        padding: 10px 0;
+        z-index: 100;
+        transition: 0.8s;
+    }
+    .nav-menu{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
